@@ -1,0 +1,23 @@
+/*Note: */
+
+/*The styles shown below already exist in base-sass.scss. Don't therefore carry anything here across - just change the markup to match */
+
+.placeholder {
+    min-height: 180px;
+    background: url('http://placehold.it/200?text=placeholder') repeat;
+}
+
+.bulleted-list {
+    list-style-image: url(../images/list-link-bullet.png);
+    padding-left: 1.5em
+}
+.bulleted-list li {
+    border-bottom: 1px solid #ececec;
+    padding: .5em 0;
+    background: no-repeat center left;
+}
+
+.day span {
+    display: inline-block;
+    width: 50%;
+}
